@@ -42,3 +42,5 @@ sumSucc :: (Int p) => IntTree -> p
 sumSucc (Leaf x) = succ x
 sumSucc (Node(x, n1, n2)) = succ x + sumSucc n1 + sumSucc n2
 
+--testcommit
+
